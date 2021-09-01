@@ -8,16 +8,19 @@ This is an Unreal Engine plugin to give you blueprint nodes for various File IO/
 - Read Bytes from File
 - Create File (with ability to create parent directories)
 - Copy File
+- Copy File Async (executes the copy outside of the main game thread)
 - Delete File
 - Create Directory
 - Copy Directory (and its entire contents)
+- Copy Directory Async (executes the copy outside of the main game thread)
 - Delete Directory (with ability to delete even if not empty)
 - Rename File or Directory
 - Get File or Directory Info (Stat info: Creation Time, Access Time, Modification Time, File Size, Is Directory, Is Read Only, Is Valid)
 - Get Files or Directories from Directory (options to filter by extension and recursively search subfolders)
 - Get Directory Contents with File Info
 - Get Environment Variable
-- Get Current User
+- Get Current Username
+- Get Current User Home Directory
 
 ## Marketplace
 
@@ -29,11 +32,11 @@ Any and all enhancements will be made to this plugin and will continue to be fre
 
 Checkout the below links if you want to make sure you get the latest and greatest news from Incanta Games:
 - Twitter: https://twitter.com/IncantaGames
-- Discord: https://discord.gg/5hFrK2D
+- Discord: https://discord.gg/cDcP3rBBUc
 
 ## Support
 
-We have a Discord server where you can get expedited support for both issues and feature requests: https://discord.gg/5hFrK2D
+We have a Discord server where you can get expedited support for both issues and feature requests: https://discord.gg/cDcP3rBBUc
 
 You can also make an issue on this GitHub repository: https://github.com/IncantaGames/unreal-bp-file-sdk/issues
 
